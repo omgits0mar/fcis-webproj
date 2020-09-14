@@ -1,0 +1,98 @@
+<html>
+<head>
+	<title>El 3ezba</title>
+	<link href="style.css" type="text/css" rel="stylesheet">
+	
+</head>
+
+<body>
+	<div class="main">
+		<nav>
+			<div class="logo">
+				<img src="images/logo.png"
+				alt="3ezba">
+			</div>
+			<div class="links">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About US</a></li>
+					<li><a href="#">Contact US</a></li>
+					<li><a href="#">Sign up</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="info">
+			<div class="overlay"></div>
+			<img src="images/maps.jfif" class="maps">
+			<div id="circle">
+				<div class="feature one">
+					<a target="_blank" href="#">
+						<img src="images/resturant.png" alt="Resturants">
+					</a>
+					<div>
+						<h2>Resturants</h2>
+						<p>Dinings and best cafes</p>
+					</div>
+				</div>
+				<div class="feature two">
+					<a target="_blank" href="#">
+						<img src="images/party.png" alt="Night">
+					</a>
+					<div>
+						<h2>Night life</h2>
+						<p>Give yourself some joy</p>
+					</div>
+				</div>
+				<div class="feature three">
+					<a target="_blank" href="#">
+						<img src="images/mall.png" alt="Malls">
+					</a>
+					<div>
+						<h2>Malls</h2>
+						<p>Shopping recomendation</p>
+					</div>
+				</div>
+				<div class="feature four">	
+					<a target="_blank" href="#">
+						<img src="images/entertainment.png" alt="Entertainment">
+					</a>
+					<div>
+						<h2>Entertainment</h2>
+						<p>Free time spendings</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="controls">
+			<img src="images/arrow1.png" id="upclick">
+			<h3>Features</h3>
+			<img src="images/arrow1.png" id="downclick">
+
+		</div>
+
+	</div>
+	
+<script>
+		var circle = document.getElementById("circle");
+		var upclick = document.getElementById("upclick");
+		var downclick = document.getElementById("downclick");
+		
+		var rotateValue = circle.style.transform;
+		var rotateSum;
+		
+		upclick.onclick = function(){
+			rotateSum = rotateValue + "rotate(-90deg)";
+			circle.style.transform = rotateSum;
+			rotateValue = rotateSum;
+		}
+		downclick.onclick = function(){
+			rotateSum = rotateValue + "rotate(90deg)";
+			circle.style.transform = rotateSum;
+			rotateValue = rotateSum;
+		}
+</script>
+	
+</body>
+
+</html>
