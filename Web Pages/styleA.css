@@ -1,0 +1,92 @@
+body{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: linear-gradient(to right,#9c27b0,#8ecdff);
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+nav{
+	width: 80%;
+	position: sticky;
+	margin: 20px auto;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	flex-basis: 20%;
+}
+.logo img{
+	width: 150px;
+}
+.links{
+	flex: 1;
+	text-align: right;
+}
+.links ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+.links ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+.links ul li a:hover{
+	color: gray;
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+.about-section p{
+	align: center;
+	text-indent: 30px;
+	
+}
+
+.container {
+  padding: 0 16px;
+}
+
+
+.title {
+  color: #FFF8DC;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #474e5d;
+}

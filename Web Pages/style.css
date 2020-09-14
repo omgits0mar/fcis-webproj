@@ -17,7 +17,7 @@ nav{
 	flex-basis: 20%;
 }
 .logo img{
-	width: 150px
+	width: 150px;
 }
 .links{
 	flex: 1;
@@ -31,6 +31,9 @@ nav{
 .links ul li a{
 	color: #fff;
 	text-decoration: none;
+}
+.links ul li a:hover{
+	color: gray;
 }
 .info{
 	width: 1000px;
@@ -56,6 +59,10 @@ nav{
 	padding: 1px;
 	border: 1px solid #ddd;
 }
+.feature img:hover{
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	transform: scale(1.5); 
+}
 img:hover{
 	 box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
@@ -65,7 +72,7 @@ img:hover{
 	color: #fff;
 }
 .feature div{
-	margin-left: 20px;
+	margin-left: 30px;
 }
 .feature div p{
 	margin-top: 10px;
@@ -113,16 +120,16 @@ img:hover{
 	padding: 1px;
 	border: 1px black;
 }
-.controls h3{
+.controls h2{
 	margin 15px 0;
 	color: #fff;
 }
 #upclick{
-	width: 15px;
+	width: 20px;
 	cusor: pointer;
 }
 #downclick{
-	width: 15px;
+	width: 20px;
 	cusor: pointer;
 	transform: rotate(180deg);
 }
