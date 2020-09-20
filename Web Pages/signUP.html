@@ -1,0 +1,59 @@
+<html>
+<head>
+   <title>Sign-up</title>
+   <link rel="icon" href="images/logo.png">
+   <link rel="stylesheet" href="styleS.css">
+</head>
+
+<body>
+	<div class="form-box">
+		<div class="button-box">
+			<div id="btn"></div>
+			<button type="button" class="toggle-btn" onclick="login()">Log In</button>
+			<button type="button" class="toggle-btn" onclick="register()">Register</button>
+		</div>
+		<form id="login" class="input-group" onsubmit="confirmInput()" action="3ezba2.html">
+		<input type="text" name="fname" value="" class="input-field" placeholder="User Id" required>
+		<input type="password" name="fpass" value="" class="input-field" placeholder="Enter Password" required>
+		<input type="checkbox" class="check-box" <span>Remember Password</span>
+		<input type="submit" value="Log in" class="submit-btn"></button>
+		</form>
+		<form id="register" class="input-group" onsubmit="confirmInput()" action="3ezba2.html">
+		<input type="text" class="input-field" placeholder="User Id" required>
+		<input type="email" class="input-field" placeholder="E-mail Id" required>
+		<input type="password" class="input-field" placeholder="Enter Password" required>
+		<input type="checkbox" class="check-box" <span>I agree to the terms & conditions</span>
+		<button type="submit" class="submit-btn">Register</button>
+		</form>
+	</div>
+	
+	<script>
+	
+	var x=document.getElementById("login");
+	var y=document.getElementById("register");
+	var z=document.getElementById("btn");
+	
+	function register(){
+		x.style.left = "-400px";
+		y.style.left="50px";
+		z.style.left="110px";
+	}
+	function login(){
+		x.style.left = "50px";
+		y.style.left="450px";
+		z.style.left="0px";
+	}
+	function confirmInput(){
+		var check = document.getElementById("login").elements.namedItem("fname").value;
+		var check2 = document.getElementById("login").elements.namedItem("fpass").value;
+		if(check=="admin" && check2=="admin"){
+			alert("Hello " + check + "! You Will now be directed to Admin page");
+			document.getElementById("login").action = "admin.html";
+		}
+		else alert("Hello " + check + "! You will be redirected to Home page");
+	}
+	
+	</script>
+	
+</body>
+</html>
