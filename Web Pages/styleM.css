@@ -1,0 +1,86 @@
+
+ body
+    {
+        background-image: url(images/background.jpg);
+        width:100%;
+        height:100%;
+        
+    }
+    h1
+    {
+        color:aquamarine;
+    }
+   .cfc
+    {
+        width: 350px;
+        height: 220px;
+        
+    }
+    }
+    .csm
+    {
+          width: 450px;
+        height: 220px;;
+    }
+    .moe
+    {
+          width: 350px;
+        height: 220px;
+    }
+    .csa
+    {
+         width: 350px;
+        height: 220px;
+        
+    }
+    th
+    {
+        text-align: center;
+        font-size:15px bold;
+        border-color:black; 
+        color:black;
+         border-radius: 3px;
+        
+    }
+  td
+    {
+        text-align: center;
+        font-size:1000px bold  ;
+         border-color:black; 
+        color:white;
+    }
+    table
+    {
+        border-style: fullscreen;
+        border-color: aquamarine;
+       
+    }
+    nav{
+	width: 80%;
+	position: sticky;
+	margin: 20px auto;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	flex-basis: 20%;
+}
+.logo img{
+	width: 150px
+}
+.links{
+	flex: 1;
+	text-align: right;
+}
+.links ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+.links ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+.links ul li a:hover{
+	color: gray;

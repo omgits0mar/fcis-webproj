@@ -1,0 +1,105 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clear
+{clear: both;}
+html
+{font-size:62.5%;}
+
+
+nav
+{background:#55d6aa;
+  font-size: 1.8rem;
+color: white;
+padding: 2rem;
+
+ }
+nav p
+{
+  float: left;
+}
+nav ul
+{
+  float: right;
+}
+nav ul li
+{
+  float: left;
+  margin: 1.5rem;
+  list-style: none;
+  padding-left: 20rem;
+}
+nav a
+{
+color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+nav a:hover
+{
+  color:rgb(153, 51, 255);
+
+}
+.s
+{
+  height: 50px;
+  width: 50px;
+}
+
+.zx
+{
+  background-color:black;
+  height: 150rem;
+  background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+text-align: center;
+color:white;
+padding-top: 5rem;
+font-size: 2.4rem;
+
+
+
+}
+.you
+{
+  margin-top:5rem;
+  width: 520px;
+  height: 250px;
+}
+.klam
+{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+}
+.sp
+{
+  width: 520px;
+  height: 250px;
+}
+section a
+{
+  text-decoration: none;
+  color: rgb(30, 60, 900);
+}
+.mus
+{
+
+}
+.mov
+{
+width: 800px;
+height: 400px;
+
+}
+.font
+{
+  font-size: 2.5rem;
+  font-family:serif;
+  color: rgb(122, 0, 204);
+
+}
