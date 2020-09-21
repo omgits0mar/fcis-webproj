@@ -1,0 +1,115 @@
+body{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	
+	background: linear-gradient(to right,#9c27b0,#8ecdff)
+}
+.logo img{
+	width: 150px;
+
+}
+
+
+.font{
+	
+	margin-left: 300px;
+	font-size: 10px;
+}
+
+nav{
+	width: 80%;
+	position: sticky;
+	margin: 20px auto;
+	z-index: 1;
+	display: flex;
+	
+}
+.links{
+	flex: 1;
+	text-align: right;
+}
+.links ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	
+}
+.links ul li a{
+	color: #fff;
+		text-decoration: none;
+}
+.links ul li a:hover{
+    color: gray;
+	}
+	
+.bucks{
+	border-radius: 75%;
+	width:200px;
+	hight:200px;
+	margin-left: 550px;
+	margin-bottom: 25px;
+
+}
+.p1{
+margin-bottom: 50px;
+	font: bold;
+	font-size: 20;
+}
+
+.h1{
+	margin-left: 540px;
+
+}
+.costa{
+	border-radius: 75%;
+	width:200px;
+	hight:200px;
+	margin-left: 550px;
+	margin-bottom: 25px;
+	}
+.p2{
+
+margin-bottom: 50px;
+	font: bold;
+	font-size: 20;
+
+}
+.h2{
+
+	margin-left: 560px;
+}
+.cil{
+	border-radius: 75%;
+	width:200px;
+	hight:200px;
+	margin-left: 550px;
+	margin-bottom: 25px;
+}
+.p3{
+margin-bottom: 50px;
+	font: bold;
+	font-size: 20;
+
+}
+
+.h3{
+	margin-left:540px; 
+}
+
+.plat{
+	border-radius: 75%;
+	width:200px;
+	hight:200px;
+	margin-left: 550px;
+	margin-bottom: 25px;
+}
+.p4{
+	margin-bottom: 50px;
+	font: bold;
+	font-size: 20;
+
+}
+.h4{
+	margin-left:500px; 
+}

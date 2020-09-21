@@ -5,6 +5,20 @@ body{
 	overflow: hidden;
 	background: linear-gradient(to right,#9c27b0,#8ecdff)
 }
+nav{
+	width: 80%;
+	position: sticky;
+	margin: 20px auto;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	flex-basis: 10%;
+}
+.logo img{
+	width: 130px;
+}
 .form-box{
 	width: 380px;
 	height: 480px;

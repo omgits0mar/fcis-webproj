@@ -1,0 +1,64 @@
+body{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	background: linear-gradient(to right,#9c27b0,#8ecdff)
+}
+.logo img{
+	width: 150px;
+
+}
+
+
+.font{
+	
+	margin-left: 300px;
+	font-size: 10px;
+}
+
+nav{
+	width: 80%;
+	position: sticky;
+	margin: 20px auto;
+	z-index: 1;
+	display: flex;
+	
+}
+.links{
+	flex: 1;
+	text-align: right;
+}
+.links ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	
+}
+.links ul li a{
+	color: #fff	;
+	text-decoration: none;
+}
+.links ul li a:hover{
+    color: gray;
+	}
+
+.cafes img{
+	border-radius: 75%;
+	margin-left: 350px;
+	margin-top: 125px;
+	width:200px;
+	hight:200px;
+
+	
+}
+.rest img{
+border-radius: 75%;
+	margin-left: 250px;
+	margin-top: 125px;
+	width:200px;
+	hight:200px;
+
+
+}
+

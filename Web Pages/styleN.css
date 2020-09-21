@@ -1,0 +1,57 @@
+body {
+    background-image: url(images/Night%20club.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+nav{
+	width: 80%;
+	position: sticky;
+	margin: 20px auto;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	flex-basis: 20%;
+}
+.logo img{
+	width: 150px
+}
+.links{
+	flex: 1;
+	text-align: right;
+}
+.links ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+.links ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+.links ul li a:hover{
+    color: gray;}
+#logo{
+    flex-basis: 20%;
+    width: 150px;
+}
+.top {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+}
+.image{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     height: 400px;
+}
+p {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}

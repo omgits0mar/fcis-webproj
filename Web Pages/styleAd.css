@@ -4,4 +4,54 @@ body{
 	position: relative;
 	overflow: hidden;
 	background: linear-gradient(to right,#9c27b0,#8ecdff)
+
 }
+nav{
+	width: 80%;
+	position: sticky;
+	margin: 20px auto;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	flex-basis: 20%;
+}
+.logo img{
+	width: 150px;
+}
+.links{
+	flex: 1;
+	text-align: right;
+}
+.links ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+.links ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+.links ul li a:hover{
+	color: gray;
+}
+.form-box{
+	width: 380px;
+	height: 480px;
+	position: absolute;
+	left: 700px;
+	margin: 6% auto;
+	background: #fff;
+	padding: 5px;
+	overflow: hidden;
+	box-shadow: 8px 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+.input-group{
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: .5;
+}
+.check-box{
+	margin: 30px 10px 30px 0;

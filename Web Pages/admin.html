@@ -4,9 +4,46 @@
    <link rel="icon" href="images/logo.png">
    <link rel="stylesheet" href="styleAd.css">
 </head>
-<body>
+<body id="change">
+	<nav>
+		<div class="logo">
+			<a href="3ezba2.html">
+			<img src="images/logo.png"
+			alt="3ezba">
+			</a>
+		</div>
+		<div class="links">
+			<ul>
+				<li><a href="3ezba2.html">Home</a></li>
+				<li><a href="About-3ezba.html">About US</a></li>
+				<li><a href="signUP.html">Sign out</a></li>
+			</ul>
+		</div>
+	</nav>
 <h1 align="center">WELCOME TO ADMIN PAGE</h1>
 
+<div class="form-box">
+<form id="change" class="input-group" >
+	<h3 align="center">Change background color </h3>
+	<input type="button"  onclick="grey()" class="check-box" value="grey"<br>
+	<input type="button"  onclick="cyan()" class="check-box" value="cyan"<br>
+	<input type="button"  onclick="violet()" class="check-box" value="violet">
+</form>
+</div>
+
+<script>
+	var x=document.getElementById("change");
+	function grey(){
+		x.style.background="#808080"
+	}
+	function cyan(){
+		x.style.background="#00ffff"
+	}
+	function violet(){
+		x.style.background="#660066"
+	}
+
+</script>
 </body>
 
 </html>
